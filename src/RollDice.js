@@ -10,10 +10,6 @@ class RollDice extends Component {
     this.NUMBERS = ["one", "two", "three", "four", "five", "six"];
   }
 
-  static defaultProps = {
-    NUMBERS: ["one", "two", "three", "four", "five", "six"],
-  };
-
   roll() {
     this.setState({ isRolling: true });
     setTimeout(() => {
