@@ -1,12 +1,11 @@
 import React, { Component } from "react";
+import "./Die.css";
 
 class Die extends Component {
   render() {
-    return (
-      <div>
-        <h1>Hello</h1>
-      </div>
-    );
+    const num = `fas fa-dice-${this.props.num} fa-10x`;
+
+    return <i className={num}></i>;
   }
 }
 
